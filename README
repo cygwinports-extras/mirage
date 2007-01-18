@@ -1,0 +1,80 @@
+mirage
+------------------------------------------
+Mirage is a fast and simple GTK+ image viewer. Because it depends only 
+on PyGTK, Mirage is ideal for users who wish to keep their computers 
+lean while still having a clean image viewer.
+
+Runtime requirements:
+  pygconf2-2.16.2-1
+  pygobject2-2.12.3-1
+  pygtk2-2.10.3-1
+  python-2.4.3-1
+
+Build requirements:
+  cygwin-1.5.23-2
+  binutils-20060817-1
+  cygport-0.2.9-1
+  gcc-core-3.4.4-3
+  python-2.4.3-1
+
+Canonical website:
+  http://mirageiv.berlios.de/
+
+Canonical download:
+  http://download.berlios.de/mirageiv/
+
+-------------------------------------------
+
+Build instructions:
+  unpack mirage-0.8.3-X-src.tar.bz2
+    if you use setup to install this src package, it will be
+	 unpacked under /usr/src automatically
+  cd /usr/src
+  cygport ./mirage-0.8.3-X.cygport all
+
+This will create:
+  /usr/src/mirage-0.8.3-X-src.tar.bz2
+  /usr/src/mirage-0.8.3-X.tar.bz2
+
+-------------------------------------------
+
+Files included in the binary package:
+
+  /etc/postinstall/mirage.sh
+  /usr/bin/mirage
+  /usr/lib/python2.4/site-packages/imgfuncs.dll
+  /usr/lib/python2.4/site-packages/mirage.py
+  /usr/lib/python2.4/site-packages/mirage.pyc
+  /usr/lib/python2.4/site-packages/mirage.pyo
+  /usr/share/applications/mirage.desktop
+  /usr/share/doc/Cygwin/mirage-0.8.3.README
+  /usr/share/doc/mirage-0.8.3/COPYING
+  /usr/share/doc/mirage-0.8.3/ChangeLog
+  /usr/share/doc/mirage-0.8.3/README
+  /usr/share/doc/mirage-0.8.3/TODO
+  /usr/share/locale/de/LC_MESSAGES/mirage.mo
+  /usr/share/locale/es/LC_MESSAGES/mirage.mo
+  /usr/share/locale/fr/LC_MESSAGES/mirage.mo
+  /usr/share/locale/it/LC_MESSAGES/mirage.mo
+  /usr/share/locale/pl/LC_MESSAGES/mirage.mo
+  /usr/share/locale/ru/LC_MESSAGES/mirage.mo
+  /usr/share/mirage/CHANGELOG
+  /usr/share/mirage/COPYING
+  /usr/share/mirage/README
+  /usr/share/mirage/TODO
+  /usr/share/mirage/TRANSLATORS
+  /usr/share/mirage/stock_fullscreen.png
+  /usr/share/mirage/stock_leave-fullscreen.png
+  /usr/share/mirage/stock_shuffle.png
+  /usr/share/pixmaps/mirage.png
+
+------------------
+
+Port Notes:
+
+----- version 0.8.3-1 -----
+Initial release for Cygwin.
+
+
+Cygwin port maintained by:
+http://cygwinports.dotsrc.org/
