@@ -1,0 +1,5 @@
+inherit distutils
+
+DESCRIPTION="Mirage PyGTK image viewer"
+HOMEPAGE="http://mirageiv.berlios.de/"
+SRC_URI=http://download.berlios.de/mirageiv/${P}.tar.bz2
